@@ -3,7 +3,7 @@
 	"image": "",
 	"players": [{
 		"name": "null",
-		"age": "", //add an I
+		"age": "", 
 		"image": "",
 		"rating": "",
 		"games": "",
