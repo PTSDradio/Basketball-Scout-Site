@@ -1,4 +1,9 @@
-body {
-    color: black;
-    background-image: https://wallpaperaccess.com/full/3694273.jpg("court");
+
+ html {
+    background-color: blue;
+    background: url(https://wallpaperaccess.com/full/3694273.jpg)  no-repeat center center fixed;;
+}
+
+h1 {
+    color: blueviolet;
 }

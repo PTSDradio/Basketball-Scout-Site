@@ -1,163 +1,276 @@
-[{
-	"team-name": "Mavs",
+
+{ "Bucks": {
+	"image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/MIL.png",
+	"players": [
+		{
+			"name": "Giannis Antetokounmpo",
+			"image": "https://www.basketball-reference.com/req/202106291/images/headshots/antetgi01.jpg",
+			"number": 34,
+			"points": 31,
+			"rebounds": 12,
+			"assists": 6,
+			"rating": "",
+			"review": ""
+		},
+		{
+			"name": "Brook Lopez",
+			"image": "https://www.basketball-reference.com/req/202106291/images/headshots/lopezbr01.jpg",
+			"number": 11,
+			"Points": 16,
+			"rebounds": 7,
+			"assists": 1,
+			"rating": "",
+			"review": ""
+		},
+		{
+			"name": "Jrue Holiday",
+			"image": "https://www.basketball-reference.com/players/h/holidjr01.html",
+			"number": 21,
+			"Points": 19,
+			"rebounds": 5,
+			"assists": 7,
+			"rating": "",
+			"review": ""
+		},
+		{
+			"name": "Khris Middleton",
+			"image": "https://www.basketball-reference.com/req/202106291/images/headshots/middlkh01.jpg",
+			"number": 22,
+			"Points": 15,
+			"rebounds": 4,
+			"assists": 5,
+			"rating": "",
+			"review": ""
+		},
+		{
+			"name": "Grayson Allen",
+			"image": "",
+			"number": 12,
+			"Points": 10,
+			"rebounds": 3,
+			"assists": 2,
+			"rating": "",
+			"review": ""
+		}
+]
+}, 
+"Knicks": {
+
 	"image": "",
-	"players": [{
-		"name": "null",
-		"age": "", 
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}]
-}, {
-	"team-name": "",
+	"players": [
+		{
+        	"name": "Julius Randle",
+			"image": "",
+        	"number": 30,
+        	"Points": 25,
+        	"rebounds": 10,
+       		"assists": 4,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "Jalen Brunson",
+			"image": "",
+			"number": 11,
+			"Points": 24,
+			"rebounds": 3,
+			"assists": 6,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "RJ Barrett",
+			"image": "",
+			"number": 9,
+			"Points": 19,
+			"rebounds": 5,
+			"assists": 2,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "Mithcell Robinson",
+			"image": "",
+			"number": 23,
+			"Points": 7,
+			"rebounds": 9,
+			"assists": 1,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "Josh Hart",
+			"image": "",
+			"number": 3,
+			"Points": 9,
+			"rebounds": 7,
+			"assists": 4,
+			"rating": "",
+			"review": ""
+    }]
+}, 
+"Lakers": {
 	"image": "",
-	"players": [{
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}]
-}, {
-	"team-name": "",
+	"players": [ 
+	{
+			"name": "Lebron James",
+			"image": "",
+			"number": 6,
+			"Points": 29,
+			"rebounds": 8,
+			"assists": 7,
+			"rating": "",
+			"review": ""
+   	},
+    {
+			"name": "Anthony Davis",
+			"image": "",
+			"number": 3,
+			"Points": 26,
+			"rebounds": 12,
+			"assists": 3,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "Austin Reaves",
+			"image": "",
+			"number": 15,
+			"Points": 13,
+			"rebounds": 3,
+			"assists": 3,
+			"rating": "",
+			"review": ""
+    
+    },
+    {
+			"name": "Rui Hachimura",
+			"image": "",
+			"number": 28,
+			"Points": 11,
+			"rebounds": 4,
+			"assists": 1,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "D'Angelo Russell",
+			"image": "",
+			"number": 0,
+			"Points": 17,
+			"rebounds": 3,
+			"assists": 6,
+			"rating": "",
+			"review": ""
+    }]
+},
+"Mavs": { 
 	"image": "",
-	"players": [{
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
-	}, {
-		"name": "null",
-		"age": "",
-		"image": "",
-		"rating": "",
-		"games": "",
-		"points": "",
-		"rebounds": "",
-		"assists": "",
-		"reviews": ""
+	"players": [ 
+	{
+			"name": "Luka Doncic",
+			"image": "",
+    		"number": 77,
+        	"Points": 32,
+        	"rebounds": 8,
+        	"assists": 8,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "Kyrie Irving",
+			"image": "",
+			"number": 2,
+			"Points": 27,
+			"rebounds": 5,
+			"assists": 5,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "Tim Hardaway Jr.",
+			"image": "",
+			"number": 11,
+			"Points": 14,
+			"rebounds": 3,
+			"assists": 2,
+			"rating": "",
+			"review": ""
+		
+    },
+    {
+			"name": "Dwight Powell",
+			"image": "",
+			"number": 7,
+			"Points": 6,
+			"rebounds": 4,
+			"assists": 1,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "Reggie Bullock",
+			"image": "",
+			"number": 25,
+			"Points": 7,
+			"rebounds": 3,
+			"assists": 1,
+			"rating": "",
+			"review": ""
 	}]
-}]
+},
+"Warriors": {
+	"image": "",
+	"players": [
+		{ 
+			"name": "Steph Curry",
+			"image": "",
+			"number": 30,
+			"Points": 29,
+			"rebounds": 6,
+			"assists": 6,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "Klay Thompson",
+			"image": "",
+			"number": 11,
+			"Points": 22,
+			"rebounds": 4,
+			"assists": 2,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "Draymond Green",
+			"image": "",
+			"number": 23,
+			"Points": 8,
+			"rebounds": 7,
+			"assists": 7,
+			"rating": "",
+			"review": ""
+    
+    },
+    {
+			"name": "Kevon Looney",
+			"image": "",
+			"number": 5,
+			"Points": 7,
+			"rebounds": 9,
+			"assists": 2,
+			"rating": "",
+			"review": ""
+    },
+    {
+			"name": "Andrew Wiggins",
+			"image": "",
+			"number": 22,
+			"Points": 17,
+			"rebounds": 5,
+			"assists": 2,
+			"rating": "",
+			"review": ""
+	}]
+}}
