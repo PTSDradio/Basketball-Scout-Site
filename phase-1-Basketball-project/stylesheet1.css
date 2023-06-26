@@ -1,37 +1,71 @@
 
- html {
-    background-color: blue;
-    background: url(https://wallpaperaccess.com/full/3694273.jpg)  no-repeat center center fixed;;
-}
+  body {
+    background: url(https://media.istockphoto.chttps://p.turbosquid.com/ts-thumb/BS/Qc2WbZ/i9/preview2/png/1626176702/600x600/fit_q87/f982c39c83d5f23506d826177342383a31a3560c/preview2.jpgom/id/1200718005/photo/3d-render-neon-basketball-field-scheme-virtual-sport-playground-sportive-game-pink-blue.jpg?s=170667a&w=0&k=20&c=iR8K5EO4CX9aDMAAudIcp5hVqMuPuNYTl53GxC6cndc=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-display: rgb(250, 250, 250);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif;
 
+    
+} 
+/* 
 h1 {
     color: blueviolet;
+} */
+
+/* html {
+    background:url(https://wallpapers.com/wallpapers/pink-neon-lights-basketball-court-qpp7plarlbpmqpcf.html);
+        background-repeat: no-repeat;
+} */
+
+
+
+ #Basketball-Team-list {
+    display:flex;
+    justify-content: center;
+} 
+
+#teams-images img {
+    display:flex;
+    justify-content:middle;
+    
+}
+#players-photos{
+   width: 100px;
+    height: auto;
+    margin: 7px;}
+
+#Basketball-Team-list img:hover {
+    filter: drop-shadow(0 0 0.75rem white)
+}
+#teams-images img:hover {
+    filter: drop-shadow(0 0 0.75rem white)
 }
 
-.styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  #players-info {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    margin-top: 25px;
+    text
+}  
+/* this code above moves the Players info to the right side of the page  */
+
+#players-info img {
+    height: auto;
+    margin: 7px;
+    filter: drop-shadow(0 0 1em #c93642)
 }
 
-.styled-table td {
-    padding: 12px 15px;
-}
-.styled-table tbody tr {
-    border-bottom: 1px solid #dddddd;
+#player-info div {
+    width: 500px;
+    margin-left: 20px;
+} 
+
+#player-info div p {
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
-.styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-}
 
-.styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
-}
-.styled-table tbody tr.active-row {
-    font-weight: bold;
-    color: #009879;
-}
+
+ 
