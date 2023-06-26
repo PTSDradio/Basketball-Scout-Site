@@ -1,6 +1,6 @@
 
   body {
-    background: url(https://media.istockphoto.chttps://p.turbosquid.com/ts-thumb/BS/Qc2WbZ/i9/preview2/png/1626176702/600x600/fit_q87/f982c39c83d5f23506d826177342383a31a3560c/preview2.jpgom/id/1200718005/photo/3d-render-neon-basketball-field-scheme-virtual-sport-playground-sportive-game-pink-blue.jpg?s=170667a&w=0&k=20&c=iR8K5EO4CX9aDMAAudIcp5hVqMuPuNYTl53GxC6cndc=);
+    background: url(https://wallpaperaccess.com/full/3694273.jpg)no-repeat center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
     font-display: rgb(250, 250, 250);
@@ -8,19 +8,12 @@
 
     
 } 
-/* 
-h1 {
-    color: blueviolet;
-} */
+#Basketball-Team-list {
+    margin: 1.5rem;
+    border: 0.5rem;
+}
 
-/* html {
-    background:url(https://wallpapers.com/wallpapers/pink-neon-lights-basketball-court-qpp7plarlbpmqpcf.html);
-        background-repeat: no-repeat;
-} */
-
-
-
- #Basketball-Team-list {
+#Basketball-Team-list {
     display:flex;
     justify-content: center;
 } 
@@ -36,7 +29,7 @@ h1 {
     margin: 7px;}
 
 #Basketball-Team-list img:hover {
-    filter: drop-shadow(0 0 0.75rem white)
+    filter: drop-shadow(0 0 0.75rem red)
 }
 #teams-images img:hover {
     filter: drop-shadow(0 0 0.75rem white)
@@ -47,25 +40,51 @@ h1 {
     height: 400px;
     justify-content: center;
     margin-top: 25px;
-    text
+    
+    
 }  
+#players-info div {
+    background-color: whitesmoke;
+}
 /* this code above moves the Players info to the right side of the page  */
 
-#players-info img {
+#team-mates div {
     height: auto;
-    margin: 7px;
-    filter: drop-shadow(0 0 1em #c93642)
+    width: 10rem;
+    text-align: center;
+    filter: drop-shadow(0 0 1em black);
+    background-color: whitesmoke;
+    opacity: 1;
+    border-radius: 0.5rem;
+    border-color: #c93642;
+    padding-top: 1rem;
+   
+
+    
+
+    
+}
+#team-mates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 5rem;
+
 }
 
-#player-info div {
+
+#players-info div {
     width: 500px;
     margin-left: 20px;
 } 
 
-#player-info div p {
+#players-info div p {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
 
+#players-info h3 {
+    margin: auto;
+    font-size:2vw;
+}
 
- 

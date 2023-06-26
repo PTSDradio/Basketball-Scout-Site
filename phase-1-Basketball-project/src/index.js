@@ -1,8 +1,12 @@
 //base json link
 const jsonLink = `http://localhost:3000/teams`
 //
-const teamList = document.getElementById(`basketball-logos`)
+const teamList = document.getElementById(`Basketball-Team-list`)
 
+const teammateList = document.getElementById(`team-mates`)
+
+const playersInfo = document.getElementById("players-info")
+ 
 //upon loading website do this
 document.addEventListener("DOMContentLoaded", () =>{
 fetch(jsonLink)
@@ -16,6 +20,59 @@ fetch(jsonLink)
 //need a team logo to pop up in the basketball logos div
  const teamIcon = (team) => { 
     const teamImg = document.createElement(`img`)
-    teamImg.src = team.logo
+    teamImg.src = team.image
     teamList.append(teamImg)
+    
+    teamImg.addEventListener("click", () =>{showTeammateList(team) })
+}
+//create card for each player
+const showTeammateList = (team) => {
+    teammateList.textContent = ""
+    team.players.forEach((player) => {
+        const playerHead = document.createElement(`img`)
+        const playerName = document.createElement(`h3`)
+        const playerDiv = document.createElement(`div`)
+
+        playerHead.src = player.image
+        playerName.textContent = player.name
+        playerDiv.append(playerHead, playerName)
+        teammateList.append(playerDiv)
+    
+        playerDiv.addEventListener("click", (e) =>{
+            e.stopPropagation()
+            teamMateInfo(player)})
+    })
+
+}
+
+ const teamMateInfo = (player)=> {
+    const playerImg = document.createElement('img')
+    playerImg.src = player.image
+
+    const playerName = document.createElement('h3')
+    playerName.textContent = `Name: ${player.name}`
+
+    const playerNumber = document.createElement('h3')
+    playerNumber.textContent = `Number: ${player.number}`
+ 
+    const playerPoints = document.createElement('h3')
+    playerPoints.textContent = `Points: ${player.Points}`
+
+    const playerAssists = document.createElement('h3')
+    playerAssists.textContent =`Assists:${player.assists}`
+
+    const playerRebound = document.createElement('h3')
+    playerRebound.textContent = `Rebound: ${player.rebounds}`
+
+    const playerRating = document.createElement('h3')
+    playerRating.textContent = `Rating: ${player.rating}`
+
+    const detailDiv = document.createElement(`div`)
+    
+    playersInfo.textContent = ""
+    detailDiv.append(playerImg, playerName, playerNumber, playerPoints, playerAssists, playerRebound, playerRating)
+    playersInfo.append(detailDiv)
+
+    
  }
+
