@@ -1,6 +1,8 @@
 
-{ "Bucks": {
-	"image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/MIL.png",
+{ 
+	"teams":[	
+ 	{ "team-name": "Bucks",
+	"logo": "https://cdn.ssref.net/req/202306191/tlogo/bbr/MIL.png",
 	"players": [
 		{
 			"name": "Giannis Antetokounmpo",
@@ -52,11 +54,11 @@
 			"rating": "",
 			"review": ""
 		}
-]
+	]
 }, 
-"Knicks": {
-
-	"image": "",
+{
+	"team-name": "Knicks",
+	"logo": "",
 	"players": [
 		{
         	"name": "Julius Randle",
@@ -109,8 +111,9 @@
 			"review": ""
     }]
 }, 
-"Lakers": {
-	"image": "",
+{
+	"team-name": "Lakers",
+	"logo": "",
 	"players": [ 
 	{
 			"name": "Lebron James",
@@ -164,8 +167,9 @@
 			"review": ""
     }]
 },
-"Mavs": { 
-	"image": "",
+{ 
+	"team-name": "Mavs",
+	"logo": "",
 	"players": [ 
 	{
 			"name": "Luka Doncic",
@@ -219,8 +223,9 @@
 			"review": ""
 	}]
 },
-"Warriors": {
-	"image": "",
+{
+	"team-name": "Warriors",
+	"logo": "",
 	"players": [
 		{ 
 			"name": "Steph Curry",
@@ -273,4 +278,5 @@
 			"rating": "",
 			"review": ""
 	}]
-}}
+}]
+}
