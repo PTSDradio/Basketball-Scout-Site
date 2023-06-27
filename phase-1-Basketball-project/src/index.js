@@ -20,10 +20,28 @@ fetch(jsonLink)
 //need a team logo to pop up in the basketball logos div
  const teamIcon = (team) => { 
     const teamImg = document.createElement(`img`)
+    const delBtn = document.createElement(`button`)
+    const logoDiv = document.createElement(`div`)
+
     teamImg.src = team.image
-    teamList.append(teamImg)
+    delBtn.textContent = "X"
+
+    logoDiv.append(teamImg,delBtn)
+    teamList.append(logoDiv)
+
     
-    teamImg.addEventListener("click", () =>{showTeammateList(team) })
+    logoDiv.addEventListener("click", () =>{showTeammateList(team) })
+    delBtn.addEventListener("click", (e) => {
+        e.stopPropagation()
+        if(confirm(`are you sure you want to delete this team?`)){
+        fetch(`http://localhost:3000/teams/${team.id}`, {
+        method: "DELETE"
+    })
+    logoDiv.remove()
+    teammateList.textContent = ""
+    playersInfo.textContent = ""
+}
+    })
 }
 //create card for each player
 const showTeammateList = (team) => {
@@ -45,7 +63,7 @@ const showTeammateList = (team) => {
 
 }
 
- const teamMateInfo = (player)=> {
+const teamMateInfo = (player)=> {
     const playerImg = document.createElement('img')
     playerImg.src = player.image
 

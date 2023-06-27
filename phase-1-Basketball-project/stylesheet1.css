@@ -8,15 +8,34 @@
 
     
 } 
-#Basketball-Team-list {
-    margin: 1.5rem;
-    border: 0.5rem;
-}
 
 #Basketball-Team-list {
     display:flex;
     justify-content: center;
+    margin: 1.5rem;
+    border: 0.5rem;
+    gap: 2rem;
 } 
+
+#Basketball-Team-list div{
+ position: relative;
+ border-radius: 1rem;
+}
+#Basketball-Team-list div img{
+    width:100%;
+    border-radius: 1rem;}
+
+#Basketball-Team-list div button{
+    position: absolute;
+	/* padding: 16px; */
+	/* background-color: green; */
+	/* border-radius: 0.3rem; */
+	top: 0.5rem;
+	right: 0.5rem;
+	width: 0.5rem;
+    height: 1rem;
+    text-align: center;
+}
 
 #teams-images img {
     display:flex;
@@ -44,39 +63,19 @@
     
 }  
 #players-info div {
-    background-color: whitesmoke;
+    display:flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        background-color: whitesmoke;
+        width: auto;
 }
 /* this code above moves the Players info to the right side of the page  */
 
-#team-mates div {
-    height: auto;
-    width: 10rem;
-    text-align: center;
-    filter: drop-shadow(0 0 1em black);
-    background-color: whitesmoke;
-    opacity: 1;
-    border-radius: 0.5rem;
-    border-color: #c93642;
-    padding-top: 1rem;
-   
 
-    
-
-    
-}
-#team-mates {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    gap: 5rem;
-
-}
-
-
-#players-info div {
+/* #players-info div {
     width: 500px;
     margin-left: 20px;
-} 
+}  */
 
 #players-info div p {
     font-family: 'Nanum Gothic', sans-serif;
@@ -88,3 +87,23 @@
     font-size:2vw;
 }
 
+
+#team-mates div {
+    height: auto;
+    width: 10rem;
+    text-align: center;
+    filter: drop-shadow(0 0 1em black);
+    background-color: whitesmoke;
+    opacity: 1;
+    border-radius: 0.5rem;
+    border-color: #c93642;
+    padding-top: 1rem; 
+}
+
+#team-mates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 5rem;
+
+}
