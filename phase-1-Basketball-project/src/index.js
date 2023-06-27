@@ -1,12 +1,5 @@
 //base json link
 const jsonLink = `http://localhost:3000/teams`
-//
-const teamList = document.getElementById(`Basketball-Team-list`)
-
-const teammateList = document.getElementById(`team-mates`)
-
-const playersInfo = document.getElementById("players-info")
- 
 //upon loading website do this
 document.addEventListener("DOMContentLoaded", () =>{
 fetch(jsonLink)
@@ -15,6 +8,15 @@ fetch(jsonLink)
     data.forEach(team => {teamIcon(team)})
 })
 })
+
+
+const teamList = document.getElementById(`Basketball-Team-list`)
+const teammateList = document.getElementById(`team-mates`)
+const playersInfo = document.getElementById(`players-info`)
+
+const addTeamBtn = document.getElementById(`addTeam`)
+ 
+
 
 
 //need a team logo to pop up in the basketball logos div
@@ -86,11 +88,25 @@ const teamMateInfo = (player)=> {
     playerRating.textContent = `Rating: ${player.rating}`
 
     const detailDiv = document.createElement(`div`)
+    const commentBtn = document.createElement(`button`)
+    const commentInput = document.createElement(`input`)
     
     playersInfo.textContent = ""
-    detailDiv.append(playerImg, playerName, playerNumber, playerPoints, playerAssists, playerRebound, playerRating)
+    detailDiv.append(playerImg, playerName, playerNumber, playerPoints, playerAssists, playerRebound, playerRating, commentInput, commentBtn)
     playersInfo.append(detailDiv)
 
     
  }
 
+ addTeamBtn.addEventListener("click", () =>{
+    newTeamForm()})
+
+ const newTeamForm = () => {
+    const newForm = document.createElement(`form`)
+    const teamName = document.createElement(`input`)
+    const teamImg = document.createElement(`input`)
+    newForm.append(teamName, teamImg)
+    teamList.append(newForm)
+    console.log("i was clicked")
+    
+ }
