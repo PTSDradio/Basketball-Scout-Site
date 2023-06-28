@@ -10,6 +10,7 @@
 } 
 
 #Basketball-Team-list {
+    align-self: center;
     display:flex;
     justify-content: center;
     margin: 1.5rem;
@@ -29,7 +30,7 @@
     position: absolute;
 	/* padding: 16px; */
 	/* background-color: green; */
-	/* border-radius: 0.3rem; */
+	border-radius: 0.3rem;
 	top: 0.5rem;
 	right: 0.5rem;
 	width: 0.5rem;
@@ -101,6 +102,7 @@
 }
 
 #team-mates {
+    align-self: center;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;

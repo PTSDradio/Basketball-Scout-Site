@@ -14,6 +14,7 @@ const teamList = document.getElementById(`Basketball-Team-list`)
 const teammateList = document.getElementById(`team-mates`)
 const playersInfo = document.getElementById(`players-info`)
 
+const newTeamFormLoc = document.getElementById(`new-Team`)
 const addTeamBtn = document.getElementById(`addTeam`)
  
 
@@ -32,7 +33,12 @@ const addTeamBtn = document.getElementById(`addTeam`)
     teamList.append(logoDiv)
 
     
-    logoDiv.addEventListener("click", () =>{showTeammateList(team) })
+    logoDiv.addEventListener("click", () =>{
+        teammateList.textContent = ""
+        playersInfo.textContent = ""
+        showTeammateList(team) 
+    })
+
     delBtn.addEventListener("click", (e) => {
         e.stopPropagation()
         if(confirm(`are you sure you want to delete this team?`)){
@@ -40,8 +46,7 @@ const addTeamBtn = document.getElementById(`addTeam`)
         method: "DELETE"
     })
     logoDiv.remove()
-    teammateList.textContent = ""
-    playersInfo.textContent = ""
+
 }
     })
 }
@@ -96,17 +101,27 @@ const teamMateInfo = (player)=> {
     playersInfo.append(detailDiv)
 
     
- }
+}
 
- addTeamBtn.addEventListener("click", () =>{
-    newTeamForm()})
+addTeamBtn.addEventListener("click", () =>{
+      newTeamForm()
+})
 
- const newTeamForm = () => {
+const newTeamForm = () => {
+    newTeamFormLoc.textContent = ""
     const newForm = document.createElement(`form`)
     const teamName = document.createElement(`input`)
     const teamImg = document.createElement(`input`)
-    newForm.append(teamName, teamImg)
-    teamList.append(newForm)
-    console.log("i was clicked")
+    const newTeamBtn = document.createElement(`button`)
+
+    newForm.append(teamName, teamImg, newTeamBtn)
+    newTeamFormLoc.append(newForm)
+    
+    newTeamBtn.addEventListener(("click"), (e) => {
+        e.preventDefault()
+        // fetch(jsonLink, {
+        //     method: "POST"
+        // })
+    })
     
  }
