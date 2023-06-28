@@ -1,12 +1,12 @@
 {
   "teams": [
     {
-      "id": "1",
-      "team-name": "Bucks",
+      "id": 1,
+      "team": "Bucks",
       "image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/MIL.png",
       "players": [
         {
-          "id": "1",
+          "id": 1,
           "name": "Giannis Antetokounmpo",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/antetgi01.jpg",
           "number": 34,
@@ -16,7 +16,7 @@
           "rating": "🏀🏀🏀🏀•"
         },
         {
-          "id": "2",
+          "id": 2,
           "name": "Brook Lopez",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/lopezbr01.jpg",
           "number": 11,
@@ -26,7 +26,7 @@
           "rating": ""
         },
         {
-          "id": "3",
+          "id": 3,
           "name": "Jrue Holiday",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/holidjr01.jpg",
           "number": 21,
@@ -36,7 +36,7 @@
           "rating": ""
         },
         {
-          "id": "4",
+          "id": 4,
           "name": "Khris Middleton",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/middlkh01.jpg",
           "number": 22,
@@ -46,7 +46,7 @@
           "rating": ""
         },
         {
-          "id": "5",
+          "id": 5,
           "name": "Grayson Allen",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/allengr01.jpg",
           "number": 12,
@@ -58,12 +58,12 @@
       ]
     },
     {
-      "id": "2",
-      "team-name": "Knicks",
+      "id": 2,
+      "team": "Knicks",
       "image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/NYK.png",
       "players": [
         {
-          "id": "6",
+          "id": 6,
           "name": "Julius Randle",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/randlju01.jpg",
           "number": 30,
@@ -73,7 +73,7 @@
           "rating": ""
         },
         {
-          "id": "7",
+          "id": 7,
           "name": "Jalen Brunson",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/brunsja01.jpg",
           "number": 11,
@@ -83,7 +83,7 @@
           "rating": ""
         },
         {
-          "id": "8",
+          "id": 8,
           "name": "RJ Barrett",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/barrerj01.jpg",
           "number": 9,
@@ -93,7 +93,7 @@
           "rating": ""
         },
         {
-          "id": "9",
+          "id": 9,
           "name": "Mithcell Robinson",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/robinmi01.jpg",
           "number": 23,
@@ -103,7 +103,7 @@
           "rating": ""
         },
         {
-          "id": "10",
+          "id": 10,
           "name": "Josh Hart",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/hartjo01.jpg",
           "number": 3,
@@ -114,75 +114,70 @@
         }
       ]
     },
-    {	
-	"id": "3",
- 	"team-name": "Lakers",
-	"image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/LAL.png",
-	"players": [ 
-	{
-			"id": "11",
-			"name": "Lebron James",
-			"image": "https://www.basketball-reference.com/req/202106291/images/headshots/jamesle01.jpg",
-			"number": 6,
-			"Points": 29,
-			"rebounds": 8,
-			"assists": 7,
-			"rating": ""
-			
-   	},
     {
-			"id": "12",
-			"name": "Anthony Davis",
-			"image": "https://www.basketball-reference.com/req/202106291/images/headshots/davisan02.jpg",
-			"number": 3,
-			"Points": 26,
-			"rebounds": 12,
-			"assists": 3,
-			"rating": ""
-			
+      "id": 3,
+      "team": "Lakers",
+      "image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/LAL.png",
+      "players": [
+        {
+          "id": 11,
+          "name": "Lebron James",
+          "image": "https://www.basketball-reference.com/req/202106291/images/headshots/jamesle01.jpg",
+          "number": 6,
+          "Points": 29,
+          "rebounds": 8,
+          "assists": 7,
+          "rating": ""
+        },
+        {
+          "id": 12,
+          "name": "Anthony Davis",
+          "image": "https://www.basketball-reference.com/req/202106291/images/headshots/davisan02.jpg",
+          "number": 3,
+          "Points": 26,
+          "rebounds": 12,
+          "assists": 3,
+          "rating": ""
+        },
+        {
+          "id": 13,
+          "name": "Austin Reaves",
+          "image": "https://www.basketball-reference.com/req/202106291/images/headshots/reaveau01.jpg",
+          "number": 15,
+          "Points": 13,
+          "rebounds": 3,
+          "assists": 3,
+          "rating": ""
+        },
+        {
+          "id": 14,
+          "name": "Rui Hachimura",
+          "image": "https://www.basketball-reference.com/req/202106291/images/headshots/hachiru01.jpg",
+          "number": 28,
+          "Points": 11,
+          "rebounds": 4,
+          "assists": 1,
+          "rating": ""
+        },
+        {
+          "id": 15,
+          "name": "D'Angelo Russell",
+          "image": "https://www.basketball-reference.com/req/202106291/images/headshots/russeda01.jpg",
+          "number": 0,
+          "Points": 17,
+          "rebounds": 3,
+          "assists": 6,
+          "rating": ""
+        }
+      ]
     },
     {
-			"id": "13",
-			"name": "Austin Reaves",
-			"image": "https://www.basketball-reference.com/req/202106291/images/headshots/reaveau01.jpg",
-			"number": 15,
-			"Points": 13,
-			"rebounds": 3,
-			"assists": 3,
-			"rating": ""
-			
-    
-    },
-    {
-			"id": "14",
-			"name": "Rui Hachimura",
-			"image": "https://www.basketball-reference.com/req/202106291/images/headshots/hachiru01.jpg",
-			"number": 28,
-			"Points": 11,
-			"rebounds": 4,
-			"assists": 1,
-			"rating": ""
-			
-    },
-    {
-			"id": "15",
-			"name": "D'Angelo Russell",
-			"image": "https://www.basketball-reference.com/req/202106291/images/headshots/russeda01.jpg",
-			"number": 0,
-			"Points": 17,
-			"rebounds": 3,
-			"assists": 6,
-			"rating": ""
-			
-    }]
-},
-    {
-      "id": "4",
-      "team-name": "Mavs",
+      "id": 4,
+      "team": "Mavs",
       "image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/DAL-2023.png",
       "players": [
         {
-          "id": "16",
+          "id": 16,
           "name": "Luka Doncic",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/doncilu01.jpg",
           "number": 77,
@@ -192,7 +187,7 @@
           "rating": ""
         },
         {
-          "id": "17",
+          "id": 17,
           "name": "Kyrie Irving",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/irvinky01.jpg",
           "number": 2,
@@ -202,7 +197,7 @@
           "rating": ""
         },
         {
-          "id": "18",
+          "id": 18,
           "name": "Tim Hardaway Jr.",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/hardati02.jpg",
           "number": 11,
@@ -212,7 +207,7 @@
           "rating": ""
         },
         {
-          "id": "19",
+          "id": 19,
           "name": "Dwight Powell",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/poweldw01.jpg",
           "number": 7,
@@ -222,7 +217,7 @@
           "rating": ""
         },
         {
-          "id": "20",
+          "id": 20,
           "name": "Reggie Bullock",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/bullore01.jpg",
           "number": 25,
@@ -234,12 +229,12 @@
       ]
     },
     {
-      "team-name": "Golden State",
-      "id": "5",
+      "team": "Golden State",
+      "id": 5,
       "image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/GSW-2023.png",
       "players": [
         {
-          "id": "21",
+          "id": 21,
           "name": "Steph Curry",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/curryst01.jpg",
           "number": 30,
@@ -249,7 +244,7 @@
           "rating": ""
         },
         {
-          "id": "22",
+          "id": 22,
           "name": "Klay Thompson",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/thompkl01.jpg",
           "number": 11,
@@ -259,7 +254,7 @@
           "rating": ""
         },
         {
-          "id": "23",
+          "id": 23,
           "name": "Draymond Green",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/greendr01.jpg",
           "number": 23,
@@ -269,7 +264,7 @@
           "rating": ""
         },
         {
-          "id": "24",
+          "id": 24,
           "name": "Kevon Looney",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/looneke01.jpg",
           "number": 5,
@@ -279,7 +274,7 @@
           "rating": ""
         },
         {
-          "id": "25",
+          "id": 25,
           "name": "Andrew Wiggins",
           "image": "https://www.basketball-reference.com/req/202106291/images/headshots/wiggian01.jpg",
           "number": 22,

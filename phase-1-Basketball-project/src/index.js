@@ -14,8 +14,9 @@ const teamList = document.getElementById(`Basketball-Team-list`)
 const teammateList = document.getElementById(`team-mates`)
 const playersInfo = document.getElementById(`players-info`)
 
-const newTeamFormLoc = document.getElementById(`new-Team`)
-const addTeamBtn = document.getElementById(`addTeam`)
+// const newTeamFormLoc = document.getElementById(`new-Team`)
+// const addTeamBtn = document.getElementById(`addTeam`)
+ const form = document.getElementById('form')
  
 
 
@@ -67,8 +68,67 @@ const showTeammateList = (team) => {
             e.stopPropagation()
             teamMateInfo(player)})
     })
+const newPlayerBtn = document.createElement('button');
+teammateList.append(newPlayerBtn)
+newPlayerBtn.addEventListener('click',() => {
+    const newPlayerform = document.createElement('form')
+    newPlayerform.id = "new-player"
+    const newPlayerName = document.createElement('input')
+    newPlayerName.placeholder = "Name"
+    const newPlayerImage = document.createElement('input')
+    newPlayerImage.placeholder = "Image Url"
+    const newPlayerNumber = document.createElement('input')
+    newPlayerNumber.placeholder = "Number"
+    const newPlayerPoints = document.createElement('input')
+    newPlayerPoints.placeholder = "Points"
+    const newPlayerRebounds = document.createElement('input')
+    newPlayerRebounds.placeholder = "Rebounds"
+    const newPlayerAssists = document.createElement('input')
+    newPlayerAssists.placeholder = "Assists"
+    const newPlayerRatings = document.createElement('input')
+    newPlayerRatings.placeholder = "Ratings"
+   const newPlayerSubmit  = document.createElement('button')
+    
+newPlayerform.append(newPlayerName, newPlayerImage, newPlayerNumber, newPlayerPoints, newPlayerRebounds, newPlayerAssists, newPlayerRatings, newPlayerSubmit)
+teammateList.append(newPlayerform)
+   newPlayerSubmit.addEventListener(('click'), (e) => {
+    e.preventDefault()
+    const newTeamPlayer ={
+        name: newPlayerName.value,
+        image: newPlayerImage.value,
+        number:  newPlayerNumber.value,
+        Points : newPlayerPoints.value,
+        assists : newPlayerAssists.value,
+        rebounds:newPlayerRebounds.value,
+        rating : newPlayerRatings.value
+        }
 
+        let playersList = team.players
+        playersList.push(newTeamPlayer)
+        console.log(playersList)
+        let listObj = {
+            players: playersList
+        }
+        // var parse_obj = JSON.parse(Str_txt);
+        // parse_obj['theTeam'].push({"teamId":"4","status":"pending"});
+        // // Str_txt = JSON.stringify(parse_obj)
+
+    fetch (`http://localhost:3000/teams/${team.id}`,{
+        method : 'PATCH',
+        headers : { 
+            'Content-Type': "application/json",
+            "Accept": "application/json",
+        },
+          body: JSON.stringify(listObj)
+
+    })
+    .then(resp => resp.json())
+       .then(data => showTeammateList(team))
+   })
+
+    })
 }
+
 
 const teamMateInfo = (player)=> {
     const playerImg = document.createElement('img')
@@ -103,25 +163,33 @@ const teamMateInfo = (player)=> {
     
 }
 
-addTeamBtn.addEventListener("click", () =>{
-      newTeamForm()
+
+
+
+form.addEventListener('submit',function(e){
+    e.preventDefault()
+    const newImg = document.getElementById('image').value
+    const newName = document.getElementById('name').value
+
+    const team = {
+        image: newImg,
+        team:  newName,
+
+        }
+
+
+    fetch (`http://localhost:3000/teams`,{
+        method : 'POST',
+        body : JSON.stringify(team),
+        headers : {
+            'Content-type': 'application/json'
+        }
+    })
+   .then (response => response.json())
+   .then (teamIcondata => teamIcon(teamIcondata))
+ .catch (error => console.log(error))
+
 })
 
-const newTeamForm = () => {
-    newTeamFormLoc.textContent = ""
-    const newForm = document.createElement(`form`)
-    const teamName = document.createElement(`input`)
-    const teamImg = document.createElement(`input`)
-    const newTeamBtn = document.createElement(`button`)
 
-    newForm.append(teamName, teamImg, newTeamBtn)
-    newTeamFormLoc.append(newForm)
-    
-    newTeamBtn.addEventListener(("click"), (e) => {
-        e.preventDefault()
-        // fetch(jsonLink, {
-        //     method: "POST"
-        // })
-    })
-    
- }
+
