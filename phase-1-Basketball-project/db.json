@@ -3,7 +3,7 @@
     {
       "id": 1,
       "team": "Bucks",
-      "image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/MIL.png",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/mil.png&h=200&w=200",
       "players": [
         {
           "id": 1,
@@ -13,7 +13,7 @@
           "Points": 31,
           "rebounds": 12,
           "assists": 6,
-          "rating": "🏀🏀🏀🏀•"
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 2,
@@ -23,7 +23,7 @@
           "Points": 16,
           "rebounds": 7,
           "assists": 1,
-          "rating": ""
+          "rating": "<img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 3,
@@ -33,7 +33,7 @@
           "Points": 19,
           "rebounds": 5,
           "assists": 7,
-          "rating": ""
+          "rating": "<img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 4,
@@ -43,7 +43,7 @@
           "Points": 15,
           "rebounds": 4,
           "assists": 5,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 5,
@@ -53,14 +53,14 @@
           "Points": 10,
           "rebounds": 3,
           "assists": 2,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         }
       ]
     },
     {
       "id": 2,
       "team": "Knicks",
-      "image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/NYK.png",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/ny.png&h=200&w=200",
       "players": [
         {
           "id": 6,
@@ -70,7 +70,7 @@
           "Points": 25,
           "rebounds": 10,
           "assists": 4,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 7,
@@ -80,7 +80,7 @@
           "Points": 24,
           "rebounds": 3,
           "assists": 6,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 8,
@@ -90,7 +90,7 @@
           "Points": 19,
           "rebounds": 5,
           "assists": 2,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 9,
@@ -100,7 +100,7 @@
           "Points": 7,
           "rebounds": 9,
           "assists": 1,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 10,
@@ -110,14 +110,14 @@
           "Points": 9,
           "rebounds": 7,
           "assists": 4,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         }
       ]
     },
     {
       "id": 3,
       "team": "Lakers",
-      "image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/LAL.png",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/lal.png&h=200&w=200",
       "players": [
         {
           "id": 11,
@@ -127,7 +127,7 @@
           "Points": 29,
           "rebounds": 8,
           "assists": 7,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 12,
@@ -137,7 +137,7 @@
           "Points": 26,
           "rebounds": 12,
           "assists": 3,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 13,
@@ -147,7 +147,7 @@
           "Points": 13,
           "rebounds": 3,
           "assists": 3,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 14,
@@ -157,7 +157,7 @@
           "Points": 11,
           "rebounds": 4,
           "assists": 1,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 15,
@@ -167,14 +167,14 @@
           "Points": 17,
           "rebounds": 3,
           "assists": 6,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         }
       ]
     },
     {
       "id": 4,
       "team": "Mavs",
-      "image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/DAL-2023.png",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/dal.png&h=200&w=200",
       "players": [
         {
           "id": 16,
@@ -184,7 +184,7 @@
           "Points": 32,
           "rebounds": 8,
           "assists": 8,
-          "rating": ""
+          "rating": "<img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 17,
@@ -194,7 +194,7 @@
           "Points": 27,
           "rebounds": 5,
           "assists": 5,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 18,
@@ -204,7 +204,7 @@
           "Points": 14,
           "rebounds": 3,
           "assists": 2,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 19,
@@ -214,7 +214,7 @@
           "Points": 6,
           "rebounds": 4,
           "assists": 1,
-          "rating": ""
+          "rating": "<img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
           "id": 20,
@@ -224,66 +224,34 @@
           "Points": 7,
           "rebounds": 3,
           "assists": 1,
-          "rating": ""
+          "rating": "<img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         }
       ]
     },
     {
-      "team": "Golden State",
-      "id": 5,
-      "image": "https://cdn.ssref.net/req/202306191/tlogo/bbr/GSW-2023.png",
+      "image": "https://play-lh.googleusercontent.com/6eRpIKSEHPNny49xvp28qdODpI2F3rH7vvUjk7xoqHm54JHEwITQtv3rwuLkk838GkZPYjyUOONb8cEM5bM",
+      "team": "sDreamwork Team",
       "players": [
         {
-          "id": 21,
-          "name": "Steph Curry",
-          "image": "https://www.basketball-reference.com/req/202106291/images/headshots/curryst01.jpg",
-          "number": 30,
-          "Points": 29,
-          "rebounds": 6,
-          "assists": 6,
-          "rating": ""
+          "name": "Shrek",
+          "image": "data:image/jpeg;base64,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",
+          "number": "79",
+          "Points": "2",
+          "assists": "7",
+          "rebounds": "50",
+          "rating": "<img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         },
         {
-          "id": 22,
-          "name": "Klay Thompson",
-          "image": "https://www.basketball-reference.com/req/202106291/images/headshots/thompkl01.jpg",
-          "number": 11,
-          "Points": 22,
-          "rebounds": 4,
-          "assists": 2,
-          "rating": ""
-        },
-        {
-          "id": 23,
-          "name": "Draymond Green",
-          "image": "https://www.basketball-reference.com/req/202106291/images/headshots/greendr01.jpg",
-          "number": 23,
-          "Points": 8,
-          "rebounds": 7,
-          "assists": 7,
-          "rating": ""
-        },
-        {
-          "id": 24,
-          "name": "Kevon Looney",
-          "image": "https://www.basketball-reference.com/req/202106291/images/headshots/looneke01.jpg",
-          "number": 5,
-          "Points": 7,
-          "rebounds": 9,
-          "assists": 2,
-          "rating": ""
-        },
-        {
-          "id": 25,
-          "name": "Andrew Wiggins",
-          "image": "https://www.basketball-reference.com/req/202106291/images/headshots/wiggian01.jpg",
-          "number": 22,
-          "Points": 17,
-          "rebounds": 5,
-          "assists": 2,
-          "rating": ""
+          "name": "Donkery",
+          "image": "https://static.wikia.nocookie.net/shrek/images/d/dc/DonkeyTransparent.png/revision/latest?cb=20171218193004",
+          "number": "6",
+          "Points": "300",
+          "assists": "0",
+          "rebounds": "0",
+          "rating": "<img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./filledIn.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\"><img src=\"./hollow.svg\" class=\"ball-style\" width=\"25px\">"
         }
-      ]
+      ],
+      "id": 6
     }
   ],
   "reviews": [

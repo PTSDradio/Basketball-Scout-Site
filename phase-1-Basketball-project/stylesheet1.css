@@ -70,36 +70,57 @@
         background-color: whitesmoke;
         width: auto;
 }
-/* this code above moves the Players info to the right side of the page  */
 
-
-/* #players-info div {
-    width: 500px;
-    margin-left: 20px;
-}  */
-
-#players-info div p {
-    font-family: 'Nanum Gothic', sans-serif;
-}
-
-
-#players-info h3 {
-    margin: auto;
-    font-size:2vw;
-}
-
-
-#team-mates div {
+#players-info div {
     height: auto;
-    width: 10rem;
+    width: 14rem;
     text-align: center;
     filter: drop-shadow(0 0 1em black);
     background-color: whitesmoke;
     opacity: 1;
     border-radius: 0.5rem;
-    border-color: #c93642;
-    padding-top: 1rem; 
+    border-color: white;
+    padding-top: 1rem;  
+    text-align: center;
+    align-self: center; 
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: 'Amatic SC', cursive;
+    
+    
+  }
+   #team-mates div:hover{box-shadow: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem white);
+    transform: translate3d(0, 2px, 0);
 }
+#team-mates div:focus{
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+} 
 
 #team-mates {
     align-self: center;
@@ -107,5 +128,359 @@
     flex-wrap: wrap;
     justify-content:center;
     gap: 5rem;
+    }
+
+
+
+
+#newPlayerSubmit{
+        border-radius: 15px;
+        align-items: middle;
+        width: 60px;
+        height: 30px;
+        align-content: center;  
 
 }
+
+#newPlayerBtn{
+    border-radius: 15px;
+    font-size: 15px;
+    padding-top: 15px 32px;
+    width: 120px;
+    height: 130px;
+    text-align: center;
+    align-self: center; 
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 30rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: 'Amatic SC', cursive;
+ 
+  }
+
+
+
+#players-info h3 {
+    margin: auto;
+    /* font-size:2vw; */
+     font-size:20px; 
+    text-align:left;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#player-info img{
+    float: right;
+}
+
+
+#team-mates div {
+    height: 19rem;
+    width: 14rem;
+    text-align: center;
+    filter: drop-shadow(0 0 1em black);
+    background-color: whitesmoke;
+    opacity: 1;
+    border-radius: 0.5rem;
+    border-color: white;
+    padding-top: 1rem;  
+    text-align: center;
+    align-self: center; 
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: 'Amatic SC', cursive;
+    /* margin-left: 120px;
+    margin-top: 120px; */
+    margin: inline end 20px;
+   
+    
+  }
+  #team-mates div img {
+    height: 180px;
+    width: 120px;
+  }
+
+  #players-info div #howdy {
+    height: 180px;
+    width: 120px;
+  }
+
+  #Basketball-Team-list div #log {
+    width: 200px;
+    height: 200px;
+  }
+
+   #team-mates div:hover{box-shadow: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem white);
+    transform: translate3d(0, 2px, 0);
+}
+#team-mates div:focus{
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+} 
+
+#team-mates {
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 5rem;
+    align-items: center;
+    }
+
+
+
+
+#newPlayerSubmit{
+        border-radius: 15px;
+        align-items: middle;
+        width: 60px;
+        height: 30px;
+        align-content: center;  
+
+}
+
+#newPlayerBtn{
+    border-radius: 15px;
+    font-size: 15px;
+    padding-top: 15px 32px;
+    width: 120px;
+    height: 130px;
+    text-align: center;
+    align-self: center; 
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: 'Amatic SC', cursive;
+ 
+  }
+
+
+  #newPlayerBtn:hover{box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+#newPlayerBtn:focus{
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.form-signin 
+    {
+        width: 100%;
+        max-width: 330px;
+        margin: left ;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 3px;
+        font-family: 'Amatic SC', cursive;
+   }
+   .form-signin h1 {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+.form-signin form {
+    padding: 16px;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+.form-signin form .submit {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+}
+.form-signin form .submit:hover, .form-signin form .submit:focus {
+    background: white;
+    box-shadow: none;
+    font-family: 'Amatic SC', cursive;
+}
+
+.form-signin form .form-control:focus {
+    border-color: #ced4da;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    font-family: 'Amatic SC', cursive;
+}
+.form-signin  {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: 'Amatic SC', cursive;
+}
+.form-signin .form-control {
+    background: rgba(255, 255, 255, 0.9);
+    font-family: 'Amatic SC', cursive;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    font-family: 'Amatic SC', cursive;
+}
+.form-signin input[type="text"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+#balls {
+    display: flex;
+    align-content: flex-start;
+}
+
+#balls img{
+    height: 3rem;   
+    width: 3rem;
+    padding-right: 2px;
+}
+
+#newPlayerForm {
+    height: fit-content;
+}
+
+
+#form button{
+    color:white;
+} 
+
+#addTeam {border-radius: 15px;
+    font-size: 15px;
+    padding-top: 15px 32px;
+    
+    text-align: center;
+    align-self: center; 
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: 'Amatic SC', cursive;
+    width:120px;
+    height: 50px;
+ 
+ 
+ 
+}
+
+#addTeam:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+#addTeam:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
